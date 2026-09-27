@@ -25,19 +25,19 @@ export default function handler(req, res)
     'frick', 'w', 'l', 'go', 'goooooo', 'tung tung tung sahur', 'among us', '100%', 'bruh', 'probably',
     'arigato', 'sugoi', 'konnichiwa', 'hello', 'hi', 'yo', 'sup', 'boo', 'hah', 'haha',
     'hahahaha', 'hahahaha', 'teehee', 'ayo', 'wut', 'reveal', 'shitty', 'low', 'taper', 'dank',
-    'jerk', 'masturbate', 'larp', 'verity', 'cruelty', 'lovity', 'falsity', 'goon', 'gooning', 'fuck',
+    'jerk', 'masturbate', 'larp', 'verity', 'cruelty', 'lovity', 'falsity', 'goon', 'jack', 'fuck',
     'rngdle', 'penis', 'vagina', 'pussy', 'furry', 'vtuber', 'hololive', 'dick', 'freak', 'testicles',
     'brainrot', 'tung', 'sahur', 'deez', 'nut', 'boob', 'tits', 'tiddy', 'breast', 'butt',
     'ass', 'bum', 'booty', 'cheek', 'boobie', 'n word', 'hawk', 'tuah', 'wordle', 'boi',
     'hentai', 'porn', 'racism', 'phonk', 'fucker', 'femboy', 'tiki', 'die', 'love', 'kill',
-    'israeli', 'fucking', 'freaking', 'fricking', 'stupid', 'dumb', 'sussy',
+    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy',
 
     // regular ass words
     'wake', 'help', 'jump', 'click', 'live', 'stream', 'shot', 'suck', 'predict', 'attempt',
     'sub', 'subscribe', 'gift', 'run', 'sleep', 'wash', 'walk', 'wanna', 'gonna', 'get',
     'gotta', 'is', 'mute', 'shoot', 'stab', 'blow', 'blew', 'cancel', 'expose', 'draw',
     'drew', 'fall', 'send', 'rub', 'accept', 'slip', 'drink', 'eat', 'read', 'verify',
-    'beat', 'learning', 'hate', 'slap', 'kick', 'punch', 'lick', 'moan', 'gag', 'say',
+    'beat', 'learn', 'hate', 'slap', 'kick', 'punch', 'lick', 'moan', 'gag', 'say',
     'said', 'tell', 'told', 'scream', 'finish', 'begin', 'reject', 'would', 'should', 'could',
     'to', 'from', 'by', 'before', 'after', 'then', 'than', 'instead', 'or', 'either',
     'rather', 'of', 'off', 'on', 'aside', 'out', 'here', 'there', 'every', 'any',
@@ -45,7 +45,7 @@ export default function handler(req, res)
     'yellow', 'orange', 'green', 'cyan', 'blue', 'pink', 'purple', 'black', 'really', 'holy',
     'free', 'chinese', 'complete', 'absolute', 'good', 'bad', 'evil', 'bald', 'new', 'old',
     'young', 'next', 'last', 'first', 'gay', 'homosexual', 'lesbian', 'transgender', 'trans', 'queer',
-    'bisexual', 'sexual', 'wrong', 'hanging', 'big', 'huge', 'small', 'tiny', 'fat', 'skinny',
+    'bisexual', 'sexual', 'wrong', 'hang', 'big', 'huge', 'small', 'tiny', 'fat', 'skinny',
     'impossible', 'anti', 'pro', 'high', 'drunk', 'future', 'past', 'spooky', 'type', 'super',
     'ultra', 'ultimate', 'mega', 'short', 'tall', 'north', 'east', 'south', 'west', 'far',
     'close', 'fast', 'slower', 'faster', 'viral', 'crazy', 'favorite', 'most', 'least', 'great',
@@ -83,6 +83,28 @@ export default function handler(req, res)
   {
     let word = words[Math.floor(Math.random() * words.length)];
 
+    // 10% chance to add 'ing'
+    if (Math.random() < 0.1)
+    {
+      if (word.endsWith('e'))
+      {
+        word = word.slice(0, -1) + 'ing';
+      }
+      else
+      {
+        word += "ing";
+      }
+    }
+
+    // 10% chance to add 'y'
+    if (Math.random() < 0.1)
+    {
+      if (!word.endsWith('y'))
+      {
+        word += "y";
+      }
+    }
+    
     // 10% chance to add pass tense
     if (Math.random() < 0.1)
     {
