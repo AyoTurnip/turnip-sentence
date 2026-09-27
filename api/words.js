@@ -4,7 +4,7 @@ export default function handler(req, res)
   const words = [
     // streamer specific terms
     'turnip', 'drongostache', 'zek', 'arc', 'bilete', 'kaden', 'kermit', 'dangernator', 'juberoni', 'nubsy',
-    'justintoucour', 'bepil', 'zodycoder', 'brian_cheese', 'wakegd', 'biggoobermonkey', 'catto', 'yuka', 'dice', 'kyouki',
+    'justintoucour', 'bepil', 'zodycoder', 'brian_cheese', 'wakegd', 'biggoobermonkey', 'catto', 'yuka', 'dice',
   
     // geometry dash terms
     'grief', 'heliopolis', 'tidal wave', 'vehemence', 'angelicide', 'aeternus', 'thinking space ii', 'ts2', 'nullscapes', 'killbot',
@@ -14,11 +14,11 @@ export default function handler(req, res)
     'nexus', 'rust', 'bloom', 'ship', 'wave', 'cube', 'spider', 'ball', 'swing', 'ufo',
     'level', 'geometry', 'dash', 'cbf', 'amethyst', 'flamewall', 'wooting', 'portal', 'orb', 'pointercrate',
     'aredl', 'global list', 'noclip', 'hitbox', 'speedhack', 'rate advisor', 'cp', 'frame perfect', 'epic', 'legendary',
-    'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump',
+    'mythic', '60 hz', '144 hz', '240 hz', '360 hz',
 
     // other people
     'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'chud', 'mori calliope',
-    'shirakami fubuki', 'god', 'jesus',
+    'shirakami fubuki', 'god', 'jesus', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump',
 
     // funnies
     'sus', 'baka', 'tuff', 'bitch', 'moron', 'idiot', 'lmao', 'lol', 'gg', 'ez',
