@@ -9,7 +9,7 @@ export default function handler(req, res)
     // geometry dash terms
     'grief', 'heliopolis', 'tidal wave', 'vehemence', 'angelicide', 'aeternus', 'thinking space ii', 'ts2', 'nullscapes', 'killbot',
     'nhelv', 'snowing in las vegas', 'snowfall storm', 'robtop', 'doggie', 'zoink', 'wpopoff', 'trick', 'viprin', 'pauze',
-    'robtop', 'robtop', 'robtop', 'robtop', 'robtop', 'robtop', 'robtop', 'robtop', 'robtop', 'ericvanwilderman',
+    'whizkid', 'slaughter', 'guitarherostyles', 'crazen', 'cherry team', 'vernam', 'cuatrocientos', 'kaiguy', 'dorami', 'ericvanwilderman',
     'vortrox', 'kingsammelot', 'juniper', 'colon', 'wulzy', 'npesta', 'technical', 'mindcap', 'krmal', 'fernanfloo',
     'nexus', 'rust', 'bloom', 'ship', 'wave', 'cube', 'spider', 'ball', 'swing', 'ufo',
     'level', 'geometry', 'dash', 'cbf', 'amethyst', 'flamewall', 'wooting', 'portal', 'orb', 'pointercrate',
