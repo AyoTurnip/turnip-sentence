@@ -14,7 +14,7 @@ export default function handler(req, res)
     'nexus', 'rust', 'bloom', 'ship', 'wave', 'cube', 'spider', 'ball', 'swing', 'ufo',
     'level', 'geometry', 'dash', 'cbf', 'amethyst', 'flamewall', 'wooting', 'portal', 'orb', 'pointercrate',
     'aredl', 'global list', 'noclip', 'hitbox', 'speedhack', 'rate advisor', 'cp', 'frame perfect', 'epic', 'legendary',
-    'mythic', '60 hz', '144 hz', '240 hz', '360 hz',
+    'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'spaceuk', 'bot',
 
     // other people
     'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'chud', 'mori calliope',
@@ -30,7 +30,8 @@ export default function handler(req, res)
     'brainrot', 'tung', 'sahur', 'deez', 'nut', 'boob', 'tits', 'tiddy', 'breast', 'butt',
     'ass', 'bum', 'booty', 'cheek', 'boobie', 'n word', 'hawk', 'tuah', 'wordle', 'boi',
     'hentai', 'porn', 'racism', 'phonk', 'fucker', 'femboy', 'tiki', 'die', 'love', 'kill',
-    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy',
+    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy', 'chud', 'slop', 'ahh', 'ur',
+    '67', 'onlyfans', 'nude', 'leak', 'file', 'gassy', 'fart',
 
     // regular ass words
     'wake', 'help', 'jump', 'click', 'live', 'stream', 'shot', 'suck', 'predict', 'attempt',
@@ -73,7 +74,9 @@ export default function handler(req, res)
     'ear', 'nipple', 'arm', 'leg', 'thigh', 'teeth', 'start', 'end', 'tongue', 'america',
     'united states', 'japan', 'canada', 'uk', 'united kingdom', 'africa', 'china', 'one', 'two', 'three',
     'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'can', 'cant', 'want',
-    'how', 'what', 'when', 'where'
+    'how', 'what', 'when', 'where', 'korea', 'education', 'special', 'korea', 'massive', 'remember',
+    'dono', 'donate', 'sponsor', 'sell', 'greed', 'obese', 'obesity', 'scam', 'hungry', 'space',
+    'just', 'play', 'player', 'never', 'ever', 'forever'
 ];
   
   const count = Math.floor(Math.random() * 12) + 2;
