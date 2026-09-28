@@ -30,7 +30,7 @@ export default function handler(req, res)
     'brainrot', 'tung', 'sahur', 'deez', 'nut', 'boob', 'tits', 'tiddy', 'breast', 'butt',
     'ass', 'bum', 'booty', 'cheek', 'boobie', 'n word', 'hawk', 'tuah', 'wordle', 'boi',
     'hentai', 'porn', 'racism', 'phonk', 'fucker', 'femboy', 'tiki', 'die', 'love', 'kill',
-    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy', 'chud', 'slop', 'ahh', 'ur',
+    'israeli', 'bang', 'smash', 'stupid', 'dumb', 'sussy', 'chud', 'slop', 'ahh', 'ur',
     '67', 'onlyfans', 'nude', 'leak', 'file', 'gassy', 'fart',
 
     // regular ass words
