@@ -14,11 +14,13 @@ export default function handler(req, res)
     'nexus', 'rust', 'bloom', 'ship', 'wave', 'cube', 'spider', 'ball', 'swing', 'ufo',
     'level', 'geometry', 'dash', 'cbf', 'amethyst', 'flamewall', 'wooting', 'portal', 'orb', 'pointercrate',
     'aredl', 'global list', 'noclip', 'hitbox', 'speedhack', 'rate advisor', 'cp', 'frame perfect', 'epic', 'legendary',
-    'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'spaceuk', 'bot',
+    'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'spaceuk', 'bot', 'slaughterhouse', 'acheron', 'orbit', 
+    '0%', '100%', 'greafer', 'tacos', 'lag', 'spike', 
 
     // other people
     'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'chud', 'mori calliope',
-    'shirakami fubuki', 'god', 'jesus', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump',
+    'shirakami fubuki', 'god', 'jesus', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump', 'drake', 'nicki manaj',
+    'kendrick lamar', 'beyonce', 'taylor swift', 'britney spears', 'charlie kirk', 'dean withers', 
 
     // funnies
     'sus', 'baka', 'tuff', 'bitch', 'moron', 'idiot', 'lmao', 'lol', 'gg', 'ez',
@@ -31,7 +33,8 @@ export default function handler(req, res)
     'ass', 'bum', 'booty', 'cheek', 'boobie', 'n word', 'hawk', 'tuah', 'wordle', 'boi',
     'hentai', 'porn', 'racism', 'phonk', 'fucker', 'femboy', 'tiki', 'die', 'love', 'kill',
     'israeli', 'bang', 'smash', 'stupid', 'dumb', 'sussy', 'chud', 'slop', 'ahh', 'ur',
-    '67', 'onlyfans', 'nude', 'leak', 'file', 'gassy', 'fart',
+    '67', 'onlyfans', 'nude', 'leak', 'file', 'gassy', 'fart', 'f slur', 'slur', 'cock', 
+    'mold', 'cuck', 'pedo', 'wither', 'asmr', 'idk', 'mean', 'temu', 'wawario', 'wawaluigi',
 
     // regular ass words
     'wake', 'help', 'jump', 'click', 'live', 'stream', 'shot', 'suck', 'predict', 'attempt',
@@ -76,7 +79,8 @@ export default function handler(req, res)
     'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'can', 'cant', 'want',
     'how', 'what', 'when', 'where', 'korea', 'education', 'special', 'korea', 'massive', 'remember',
     'dono', 'donate', 'sponsor', 'sell', 'greed', 'obese', 'obesity', 'scam', 'hungry', 'space',
-    'just', 'play', 'player', 'never', 'ever', 'forever'
+    'just', 'play', 'player', 'never', 'ever', 'forever', 'second', 'third', 'guilty', 'innocent',
+    'spread', 'pregnant', 'slavery', 'labor', 'was', 'will', 'going'
 ];
   
   const count = Math.floor(Math.random() * 12) + 2;
@@ -157,7 +161,7 @@ export default function handler(req, res)
     // 25% chance to capitalize the first letter
     if (Math.random() < 0.25)
     {
-      word = word.charAt(0).toUpperCase() + word.slice(1);
+      word = word.replace(/\b[a-z]/g, (char) => char.toUpperCase());
     }
 
     // 10% chance to fully capitalize
